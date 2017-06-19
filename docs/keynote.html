@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>ISQIP 2017 Game Development Workshop - Day 1</title>
+
+    <meta name="description" content="ISQIP 2017 Game Development Workshop - Day 1" />
+    <meta name="author" content="Hari G" />
+
+    <link href="presentation.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    Fallback message
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <!-- Title slide -->
+    <div id="title" class="step slide" data-x="0" data-y="0">
+        <h1>Game development workshop</h1>
+        <h2>Keynotes</h2>
+        <br />
+        <p>ISQIP 2017 - CEC</p>
+        <div class="name">
+          <p>Hari Gangadharan Nair</p>
+          <p class="text-grey">Chief Technology Officer</p>
+          <p class="text-grey">Wandertrails Services Pvt. Ltd.</p>
+        </div>
+    </div>
+
+    <!-- Workshop schedule - Day 1 -->
+    <div class="step slide schedule" data-x="0" data-y="1000">
+        <h1>Workshop schedule</h1>
+        <h2><strong>Day 1</strong></h2>
+        <br />
+        <ul>
+          <li>Introduction to game development</li>
+          <li>Development environment review</li>
+          <li>Introduction to Godot Engine</li>
+          <li>The basics building blocks of games</li>
+          <li><em>Exercise 1.1 - Create a Godot project</em></li>
+          <li>Scenes and Nodes</li>
+          <li><em>Exercise 1.2 - Create a scene</em></li>
+          <li>...</li>
+        </ul>
+    </div>
+
+    <!-- Workshop schedule - Day 1 cont'd -->
+    <div class="step slide schedule" data-x="0" data-y="2000">
+        <h1>Workshop schedule</h1>
+        <h2><strong>Day 1 Cont'd</strong></h2>
+        <br />
+        <ul>
+          <li>Keyframe animations</li>
+          <li><em>Exercise 1.3 - Create a simple animation</em></li>
+          <li>Sprite frame animations</li>
+          <li><em>Exercise 1.4 - Create a sprite animation</em></li>
+          <li>Introduction to GDScript</li>
+          <li><em>Exercise 1.5 - Create a script</em></li>
+        </ul>
+    </div>
+
+    <!-- Workshop schedule - Day 2 -->
+    <div class="step slide schedule" data-x="0" data-y="3000">
+        <h1>Workshop schedule</h1>
+        <h2><strong>Day 2</strong></h2>
+        <br />
+        <ul>
+          <li>Introduction to game physics</li>
+          <li><em>Exercise 2.1 - Bodies and collisions</em></li>
+          <li>User input</li>
+          <li><em>Exercise 2.2 - Capturing user input</em></li>
+          <li>Tileset and Tilemap</li>
+          <li><em>Exercise 2.3 - Tilemap painting</em></li>
+          <li>
+            <em>Exercise 2.4 - Let's build a game</em>
+            <ul>
+              <li><em>- Build level</em></li>
+              <li><em>- Playing character</em></li>
+              <li><em>- Non-playing character</em></li>
+              <li><em>- Objects</em></li>
+              <li><em>- Game logic</em></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+
+    <!-- Workshop schedule - Day 3 -->
+    <div class="step slide schedule" data-x="0" data-y="4000">
+        <h1>Workshop schedule</h1>
+        <h2><strong>Day 3</strong></h2>
+        <br />
+        <ul>
+          <li>Music and sounds</li>
+          <li><em>Exercise 3.1 - Add some sound</em></li>
+          <li>Particles introduction</li>
+          <li><em>Exercise 3.2 - Create a particle effect</em></li>
+          <li>Game UI</li>
+          <li><em>Exercise 3.3 - Build a UI</em></li>
+          <li>Other capabilities of Godot</li>
+          <li>Distributing your game on multiple platforms</li>
+          <li><em>Exercise 3.4 - Build for Android</em></li>
+          <li>Q &amp; A</li>
+        </ul>
+    </div>
+
+    <!-- Game industry -->
+    <div class="step slide content" data-x="2000" data-y="0" data-rotate="90">
+        <h1>The video game industry</h1>
+        <br />
+        <ul>
+          <li>Industry &amp; Ecosystem</li>
+          <li>Indian video game industry</li>
+          <li>
+            Careers in video game industry
+            <span class="inset">
+              <ul>
+                <li>- Artists</li>
+                <li>- Sound producers</li>
+                <li>- Developers</li>
+                <li>- Testers</li>
+                <li>- Devops</li>
+              </ul>
+            </span>
+          </li>
+        </ul>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/">https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/</a></li>
+        </ul>
+    </div>
+
+    <!-- Platforms and monetization -->
+    <div class="step slide content" data-x="2000" data-y="1000" data-rotate="90">
+        <h1>Platforms and Monetization</h1>
+        <br />
+        <ul>
+          <li>
+            Distribution platforms
+            <span class="inset">
+              <ul>
+                <li>- Desktop games</li>
+                <li>- Mobile games</li>
+                <li>- Web-based games</li>
+                <li>- Console games - Playstation, Wii, XBox etc.</li>
+                <li>- Virtual Reality</li>
+                <li>- Other devices (e.g. Smart TVs)</li>
+              </ul>
+            </span>
+          </li>
+          <li>
+            Monetization models
+            <span class="inset">
+              <ul>
+                <li>- Game purchase</li>
+                <li>- In-game purchases</li>
+                <li>- Royalty</li>
+                <li>- Advertisements</li>
+                <li>- Subscriptions</li>
+              </ul>
+            </span>
+          </li>
+        </ul>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/">https://newzoo.com/insights/articles/the-global-games-market-will-reach-108-9-billion-in-2017-with-mobile-taking-42/</a></li>
+        </ul>
+    </div>
+
+    <!-- Game engines -->
+    <div class="step slide content" data-x="2000" data-y="2000" data-rotate="90">
+        <h1>Game engines</h1>
+        <br />
+        <ul>
+          <li>Abstracts technicalities and lets developers focus on game elements</li>
+          <li>Provides reusable components - rendering, audio, physics etc.</li>
+          <li>2d and 3d engines</li>
+          <li>Design first vs Code first</li>
+          <li>
+            Popular 2d game engines
+            <span class="inset">
+              <ul>
+                <li>- Unity 3d (Free with restrictions)</li>
+                <li>- Unreal Engine (Free with royalty)</li>
+                <li>- Phaser (HTML5)</li>
+                <li>- Cocos2d family</li>
+                <li>- Gamemaker Studio</li>
+                <li>- Godot Engine</li>
+              </ul>
+            </span>
+          </li>
+        </ul>
+    </div>
+
+    <!-- Why Godot? -->
+    <div class="step slide content" data-x="2000" data-y="3000" data-rotate="90">
+        <h1>Godot Engine</h1>
+        <br />
+        <ul>
+          <li>Initially closed-source - used by many Latin American game studios</li>
+          <li>Now free and open source - MIT License</li>
+          <li>2d and 3d Game engine</li>
+          <li>Design first approach</li>
+          <li>Integrated IDE, Physics and other game capabilities</li>
+          <li>Rich features</li>
+          <li>Active community</li>
+          <li>Program in GDScript which is similar to Python</li>
+          <li>Use C++ when performance is important</li>
+        </ul>
+        <br />
+        <h3>Links</h3>
+        <ul>
+          <li><a href="https://godotengine.org/">https://godotengine.org/</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Godot_(game_engine)">https://en.wikipedia.org/wiki/Godot_(game_engine)</a></li>
+        </ul>
+    </div>
+
+    <!-- Game basics -->
+    <div class="step slide content" data-x="4000" data-y="0">
+        <h1>Game building blocks</h1>
+        <br />
+        <ul>
+          <li>Scenes</li>
+          <li>Nodes</li>
+          <li>Sprites</li>
+          <li>Textures</li>
+          <li>Texture atlas</li>
+          <li>Transforms</li>
+          <li>Keyframes</li>
+          <li>Particles</li>
+          <li>Physics bodies &amp; Collision bodies</li>
+          <li>Scripts</li>
+        </ul>
+    </div>
+
+    <!-- GDScript -->
+    <div class="step slide content" data-x="4000" data-y="1000">
+        <h1>Scripting</h1>
+        <br />
+        <ul>
+          <li>Scripring allows programmatic access to scenes and nodes</li>
+          <li>Build complex and dynamic logic and control game world in finest detail possible</li>
+          <li>Add new nodes to world, check interaction between them, respond to user input</li>
+          <li>Interact with servers, hardware devices</li>
+          <li>GDScript is a simple dynamically typed language, similar to Python</li>
+          <li>Developed from scratch by Godot team</li>
+          <li>Heavily optimized for game development</li>
+          <li>At the expense of convenience and ease of use, there is a performance penalty</li>
+          <li>Most of the heavy lifting is done by the Engine, leaving game logic to scripts</li>
+          <li>For more computation intensive code, use C++</li>
+        </ul>
+    </div>
+
+    <!-- GDScript 2-->
+    <div class="step slide content" data-x="4000" data-y="2000">
+        <h1>GDSCript</h1>
+        <br />
+        <ul>
+          <li>Class name is file name. Recommended to keep same as root node name</li>
+          <li>Extends root node type - Follows multi-level inheritance</li>
+          <li>Object oriented design is encouraged</li>
+          <li>Functions can only be written inside classes</li>
+          <li>Dynamic types</li>
+          <li>Object oriented design is encouraged</li>
+          <li>Heavily optimized for game development</li>
+          <li>At the expense of convenience and ease of use, there is a performance penalty</li>
+          <li>Most of the heavy lifting is done by the Engine, leaving game logic to scripts</li>
+          <li>For more computation intensive code, use C++</li>
+        </ul>
+    </div>
+
+    <!-- GDScript 3-->
+    <div class="step slide content" data-x="4000" data-y="3000">
+        <h1>GDScript</h1>
+        <br />
+        <ul>
+          <li>Language basics</li>
+          <li>Vector2</li>
+          <li>Initialization - _init and _ready</li>
+          <li>Game loop - _process &amp; _fixed_process</li>
+          <li>Accessing game objects</li>
+          <li><a href="goo.gl/Wn2VIU"><strong>goo.gl/Wn2VIU</strong></a>
+        </ul>
+    </div>
+
+    <!-- Physics -->
+    <div class="step slide content" data-x="4000" data-y="4000">
+        <h1>Physics</h1>
+        <br />
+        <ul>
+          <li>Physics allows objects to interact like in real world</li>
+          <li>Break the rules of physics!</li>
+          <li>
+            Bodies - defines object type, gravity, mass, elasticity, friction etc.
+            <span class="inset">
+              <ul>
+                <li><strong>Rigid body</strong></li>
+                <li>Objects that obey physics (until you mess with them</li>
+                <li><strong>Static body</strong></li>
+                <li>Objects that generally don't move. e.g. walls, floor. Allows collision </li>
+                <li><strong>Kinematic body</strong></li>
+                <li>Manage collisions, but break rules of physics. Used for moving objects (e.g. player, platforms, elevators)</li>
+              </ul>
+            </span>
+          </li>
+        </ul>
+    </div>
+
+    <div class="step slide content" data-x="4000" data-y="5000">
+        <h1>Physics cont'd</h1>
+        <br />
+        <ul>
+          <li>
+            Collision boundaries - define object shape
+            <span class="inset">
+              <ul>
+                <li><strong>Collision Shape</strong></li>
+                <li><strong>Collision Polygon (Convex and Concave)</strong></li>
+              </ul>
+            </span>
+          </li>
+          <li>Gravity &amp; Forces</li>
+        </ul>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="impress.min.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

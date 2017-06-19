@@ -1,0 +1,60 @@
+Reach me at
+-----------
+harig074@gmail.com
+FB Messenget - m.me/harig074
+whatsapp - 9495054555
+
+Godot documentation
+------------------
+http://docs.godotengine.org/en/stable/
+
+Demo projects
+-------------
+https://github.com/godotengine/godot-demo-projects
+
+Assets
+-------
+
+https://opengameart.org/
+https://itch.io/game-assets
+http://www.gameart2d.com/freebies.html
+https://v-play.net/game-resources/16-sites-featuring-free-game-graphics#_Kenney.nl
+
+Sounds
+http://freesound.org/
+https://soundcloud.com/
+
+Tutorials
+--------
+
+Platform game
+https://www.youtube.com/watch?v=Elw3KEz7TwQ
+
+Sprite Animation
+https://www.youtube.com/watch?v=X3flgK75Oz0
+
+Custom drawing
+http://docs.godotengine.org/en/stable/learning/features/2d/custom_drawing_in_2d.html
+
+Tweening animation
+https://www.youtube.com/watch?v=ofDcC3aux8Q&feature=em-subs_digest-vrecs
+
+Buttons & UI
+https://www.youtube.com/watch?v=4-Kj_-bc75g
+
+Sound FX and music
+https://www.youtube.com/watch?v=edHtQQ1pI10
+
+Good video tutorial channels
+-------------
+GDQuest
+https://www.youtube.com/channel/UCxboW7x0jZqFdvMdCFKTMsQ
+
+Gamefromscratch
+https://www.youtube.com/watch?v=UWB-HVFxEpU&list=PLS9MbmO_ssyAXRl-_ktrebQBFxjSQt7UX
+
+Pixelated Gears (Spanish with subtitles)
+https://www.youtube.com/channel/UCf1t2cnZEkUqDkDjvY6-NNw
+
+Ivan Skodje
+https://www.youtube.com/channel/UCBHuFCVtZ9vVPkL2VxVHU8A
