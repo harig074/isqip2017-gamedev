@@ -1,9 +1,3 @@
-Reach me at
------------
-harig074@gmail.com
-FB Messenget - m.me/harig074
-whatsapp - 9495054555
-
 Godot documentation
 ------------------
 http://docs.godotengine.org/en/stable/
